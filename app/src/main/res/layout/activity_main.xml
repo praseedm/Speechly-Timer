@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="praseed.master.speechly.MainActivity"
+    android:background="#252525"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/textview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:id="@+id/textview"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="125sp"
+        android:textColor="#575757" />
+
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:textOff=""
+        android:textOn=""
+        android:id="@+id/toggleButton"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/toggle_selector"/>
+
+
+</RelativeLayout>
