@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
     }
 
-/*   private void playSound() {
+  private void playSound() {
         try {
             AssetFileDescriptor asfd = getAssets().openFd("sounds/tone.mp3");
             MediaPlayer mediaPlayer = new MediaPlayer();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         }
 
     }
-*/
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
