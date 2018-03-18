@@ -1,1 +1,0 @@
-                      Speechly-Timer
